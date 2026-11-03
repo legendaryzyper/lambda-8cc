@@ -293,7 +293,7 @@ $(ELCLAM): build/elc.eir $(ELC)
 #================================================================
 $(LAMBDATOOLS):
 	mkdir -p build
-	cd build; git clone https://github.com/woodrush/lambda-calculus-devkit
+	cd build; git clone https://github.com/legendaryzyper/lambda-calculus-devkit
 
 .PHONY: uni++
 uni++: $(UNIPP)
